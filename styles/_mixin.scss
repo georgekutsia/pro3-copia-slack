@@ -1,0 +1,14 @@
+// @mixin inamovible (){
+//     display: flex;
+//     flex-direction: row;
+//     gap:20px;
+//     justify-content: space-around;
+// }
+// //el mixin inamovible no especifica variables y no se puede cambiar el contenido si se importa en otro lugar
+// @mixin cambiable ($family, $size, $color, $height){
+//     font-family: $family;
+//     font-size: $size;
+//     color:$color;
+//     line-height: $height;
+// }
+// //el mixin de arriba tiene variables que se puede especificar en donde se importe
