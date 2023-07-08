@@ -5,8 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 <body>
+  <script>
+    var arrow = document.getElementsByClassName("i-arrow");
+    arrow.addEventListener("click", function() {
+    arrow.classList.toggle("rotate");
+    });
+
+  </script>
   <header class="header">
     <nav class="header-nav">
       <a class="header-nav-a"  href="#"><img class="header-nav-a-img" src="./img/slack-logo.png" alt="logo slack"> slack</a>
@@ -116,31 +125,55 @@
       <img src="./img/slack-logo.png" alt="">
       <div class="main-section3-div">
         <button> ¿POR QUÉ SLACK?</button>
-        <i id="arrow" class="fa fa-chevron-down"></i>
+        <!-- no se si es mas eficiente añadir una clase que los englobe y luego el código de css es un poco más
+        corto, pero aquí se hace mas largo, así que las gallinas que entran por las que salen, no se cual es mejor -->
+        <input type="checkbox" id="arrow1-checkbox">
+        <label for="arrow1-checkbox" id="arrow1"></label>
       </div>
       <div class="main-section3-div">
         <button> PRODUCTO</button>
-        <i></i>
+        <input type="checkbox" id="arrow2-checkbox">
+        <label for="arrow2-checkbox" id="arrow2"></label>
       </div>
       <div class="main-section3-div">
-        <button> PRODUCTO</button>
-        <i></i>
+        <button> PRECIOS</button>
+        <input type="checkbox" id="arrow3-checkbox">
+        <label for="arrow3-checkbox" id="arrow3"></label>
       </div>
       <div class="main-section3-div">
-        <button> PRODUCTO</button>
-        <i></i>
+        <button> RECURSOS</button>
+        <input type="checkbox" id="arrow4-checkbox">
+        <label for="arrow4-checkbox" id="arrow4"></label>
       </div>
       <div class="main-section3-div">
-        <button> PRODUCTO</button>
-        <i></i>
-      </div>
-      <div class="main-section3-div">
-        <button> PRODUCTO</button>
-        <i></i>
+        <button> EMPRESA</button>
+        <input type="checkbox" id="arrow5-checkbox">
+        <label for="arrow5-checkbox" id="arrow5"></label>
       </div>
 
     </section>
   </main>
-  <footer></footer>
+  <footer class="footer">
+    <ul class="footer-ul1">
+      <a href="#"><li class="footer-ul1-li">Estado</li></a>
+      <a href="#"><li class="footer-ul1-li">Privacidad</li></a>
+      <a href="#"><li class="footer-ul1-li">Términos</li></a>
+      <a href="#"><li class="footer-ul1-li-a"><img src="./img/opciones.logo.png" alt="options-logo"> &nbsp;Su opción de privacidad</li></a>
+      <a href="#"><li class="footer-ul1-li">Preferencias de coockies</li></a>
+      <a href="#"><li class="footer-ul1-li">Contáctanos</li></a>
+      <a href="#"><li class="footer-ul1-li">        
+          Cambiar de región </li>       
+          <label for="arrow7-checkbox" id="arrow7"></label>
+        <input type="checkbox" id="arrow7-checkbox"></a>
+      <a href="#"><li class="footer-ul1-li-a2"><img src="./img/download.logo.png" alt="globe-logo"> &nbsp;Descargar Slack</li></a>
+    </ul>
+    <div class="footer-div">
+      <img class="footer-div-img" src="./img/twitter.logo.png" alt="logo">
+      <img class="footer-div-img" src="./img/facebook.logo.png" alt="logo">
+      <img class="footer-div-img" src="./img/youtube.logo.png" alt="logo">
+      <img class="footer-div-img" src="./img/Linkedin.logo.png" alt="logo">
+    </div>
+    <p>©2023 Slack Technologies, LLC, una empresa de Salesforce. Todos los derechos reservados. Las distintas marcas comerciales pertenecen a sus respectivos propietarios.</p>
+  </footer>
 </body>
 </html>

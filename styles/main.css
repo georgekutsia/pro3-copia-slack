@@ -269,7 +269,7 @@
   -webkit-clip-path: ellipse(105% 100% at center top);
           clip-path: ellipse(105% 100% at center top);
   padding: 80px 5%;
-  background-color: purple;
+  background-color: #511957;
 }
 .main-section2-div4-div2 h3 {
   font-size: 30px;
@@ -315,6 +315,167 @@
   border: none;
   margin-top: 20px;
   font-weight: 600;
+}
+.main-section3 .i-arrow.rotate {
+  transform: rotate(90deg);
+  background-color: blue;
+}
+.main-section3-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  margin: 30px 5%;
+  font-size: 14px;
+}
+.footer-ul1 a {
+  text-decoration: none;
+}
+.footer-ul1-li {
+  list-style: none;
+  color: black;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.footer-ul1-li-a {
+  color: black;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.footer-ul1-li-a2 {
+  color: #1264a3;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.footer p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+#arrow1-checkbox {
+  display: none;
+}
+
+#arrow1 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#arrow1-checkbox:checked ~ #arrow1 {
+  transform: rotate(45deg);
+}
+
+#arrow2-checkbox {
+  display: none;
+}
+
+#arrow2 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#arrow2-checkbox:checked ~ #arrow2 {
+  transform: rotate(45deg);
+}
+
+#arrow3-checkbox {
+  display: none;
+}
+
+#arrow3 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#arrow3-checkbox:checked ~ #arrow3 {
+  transform: rotate(45deg);
+}
+
+#arrow4-checkbox {
+  display: none;
+}
+
+#arrow4 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#arrow4-checkbox:checked ~ #arrow4 {
+  transform: rotate(45deg);
+}
+
+#arrow5-checkbox {
+  display: none;
+}
+
+#arrow5 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#arrow5-checkbox:checked ~ #arrow5 {
+  transform: rotate(45deg);
+}
+
+#arrow6-checkbox {
+  display: none;
+}
+
+#arrow6 {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#arrow6-checkbox:checked ~ #arrow6 {
+  transform: rotate(45deg);
 }
 
 body {

@@ -167,7 +167,7 @@
         &-div2{
           clip-path: ellipse(105% 100% at center top);
           padding: 80px 5%;
-          background-color: purple;
+          background-color: $background-slack;
           h3{
             font-size: 30px;
             color: white;
@@ -201,6 +201,15 @@
       border: none;
       margin-top: 20px;
       font-weight: 600;
+    }
+    .i-arrow.rotate {
+      transform: rotate(90deg);
+      background-color: blue;
+    }
+    &-div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   }
 }

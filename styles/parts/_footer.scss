@@ -1,0 +1,39 @@
+.footer{
+  margin: 30px 5%;
+  font-size: 14px;
+  &-ul1{
+    a{
+      text-decoration: none;
+    }
+    &-li{
+      list-style: none;
+      color: black;
+      margin-bottom: 30px;
+      font-weight: 500;
+      &-a{
+        color: black;
+        align-items: center;
+        display: flex;
+        margin-bottom: 30px;
+        font-weight: 500;
+      }
+      &-a2{
+        color: $a-color;
+        align-items: center;
+        display: flex;
+        margin-bottom: 30px;
+        font-weight: 500;
+      }
+    }
+  }
+  &-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+}

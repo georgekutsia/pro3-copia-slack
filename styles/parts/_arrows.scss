@@ -1,0 +1,60 @@
+#arrow1-checkbox {
+  display: none;
+}
+#arrow1 {
+@include arrow()
+}
+
+#arrow1-checkbox:checked ~ #arrow1 {
+  transform: rotate(45deg);
+}
+#arrow2-checkbox {
+  display: none;
+}
+#arrow2 {
+@include arrow()
+}
+
+#arrow2-checkbox:checked ~ #arrow2 {
+  transform: rotate(45deg);
+}
+#arrow3-checkbox {
+  display: none;
+}
+#arrow3 {
+@include arrow()
+}
+
+#arrow3-checkbox:checked ~ #arrow3 {
+  transform: rotate(45deg);
+}
+#arrow4-checkbox {
+  display: none;
+}
+#arrow4 {
+@include arrow()
+}
+
+#arrow4-checkbox:checked ~ #arrow4 {
+  transform: rotate(45deg);
+}
+#arrow5-checkbox {
+  display: none;
+}
+#arrow5 {
+@include arrow()
+}
+
+#arrow5-checkbox:checked ~ #arrow5 {
+  transform: rotate(45deg);
+}
+#arrow6-checkbox {
+  display: none;
+}
+#arrow6 {
+@include arrow()
+}
+
+#arrow6-checkbox:checked ~ #arrow6 {
+  transform: rotate(45deg);
+}
