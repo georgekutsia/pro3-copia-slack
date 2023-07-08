@@ -5,6 +5,9 @@
 @import "./parts/sectorMain";
 @import "./parts/footer";
 
+body{
+  font-family: $slack-font;
+}
 
 
 //aquí importamos todos los scss 

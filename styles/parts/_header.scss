@@ -1,0 +1,75 @@
+.header{
+  background-color: $background-slack;
+  color: white;
+  margin-bottom: -70px;
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    &-a {
+      text-align: center;
+      align-items: center;
+      margin: 28px 32px;
+      font-size: 28px;
+      text-decoration: none;
+      color: white;
+      &-img{
+        width: 25px;
+        height: 25px;
+      }
+    } 
+  }
+  &-section-1{
+      margin: 0px 5%;
+    text-align: center;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    &-h1{
+      font-size: 40px;
+      line-height: 50px;
+      &-span{
+        color:#ecb22e
+      }
+    }
+    &-h2{
+      font-family: $slack-font;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 26px;
+    }
+    &-button1{
+      @include button($background-slack, white, 10px 0px 0px 0px);
+    }
+    &-button2{
+      @include button(white,#007aff, 10px 0px 0px 0px);
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      font-size: 12px;
+      h3 {
+        margin-left: 40px;
+      }
+      &-img{
+        width: 50px;
+        position: absolute;
+        left: 24px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+.video {
+  margin-top: 50px;
+  display: flex;
+  overflow: hidden;
+  &-img {
+    width: 200%; 
+    margin-left: -60px;
+  }
+  @media all  and (min-width:950px) {
+    &-img{
+      width: 30%;
+    }
+  }
+}
