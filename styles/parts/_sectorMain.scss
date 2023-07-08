@@ -167,7 +167,7 @@
         &-div2{
           clip-path: ellipse(105% 100% at center top);
           padding: 80px 5%;
-          background-color: $background-slack;
+          background-color: purple;
           h3{
             font-size: 30px;
             color: white;
@@ -187,8 +187,20 @@
     }
   }
   &-section3{
-    padding: 150px 5%;
+    padding: 150px 5% 50px 5%;
     background-color: white;
     text-align: left;
+    border-bottom: 1px solid grey;
+    img{
+      width: 55px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    button{
+      background-color: transparent;
+      border: none;
+      margin-top: 20px;
+      font-weight: 600;
+    }
   }
 }

@@ -269,7 +269,7 @@
   -webkit-clip-path: ellipse(105% 100% at center top);
           clip-path: ellipse(105% 100% at center top);
   padding: 80px 5%;
-  background-color: #511957;
+  background-color: purple;
 }
 .main-section2-div4-div2 h3 {
   font-size: 30px;
@@ -300,9 +300,21 @@
   margin-bottom: 5px;
 }
 .main-section3 {
-  padding: 150px 5%;
+  padding: 150px 5% 50px 5%;
   background-color: white;
   text-align: left;
+  border-bottom: 1px solid grey;
+}
+.main-section3 img {
+  width: 55px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.main-section3 button {
+  background-color: transparent;
+  border: none;
+  margin-top: 20px;
+  font-weight: 600;
 }
 
 body {
