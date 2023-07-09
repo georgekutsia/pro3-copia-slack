@@ -9,6 +9,9 @@
   color: white;
   margin-bottom: -70px;
 }
+.header-div {
+  padding-bottom: 70px;
+}
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -37,6 +40,9 @@
 }
 .header-section-1-h1-span {
   color: #ecb22e;
+}
+.header-section-1-p {
+  display: none;
 }
 .header-section-1-h2 {
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
@@ -69,7 +75,7 @@
   font-size: 12px;
 }
 .header-section-1-button2 h3 {
-  margin-right: 50px;
+  margin-right: 20%;
 }
 .header-section-1-button2-img {
   width: 48px;
@@ -85,15 +91,35 @@
   overflow: hidden;
 }
 .video-img {
-  width: 200%;
+  min-width: 700px;
   margin-left: -60px;
 }
-@media all and (min-width: 950px) {
-  .video-img {
-    width: 30%;
+
+@media screen and (min-width: 768px) {
+  .header-section-1 {
+    text-align: left;
+  }
+  .header-div {
+    display: flex;
+  }
+  .header-div .video {
+    max-width: 50%;
+    margin-top: 0px;
+    display: block;
+  }
+  .header-div .video-img {
+    width: 100%;
+    margin: 0px;
   }
 }
-
+@media screen and (min-width: 1124px) {
+  .header-section-1 {
+    text-align: left;
+  }
+  .header-section-1-p {
+    display: inline;
+  }
+}
 .main {
   text-align: center;
   background-color: #f4ede4;
