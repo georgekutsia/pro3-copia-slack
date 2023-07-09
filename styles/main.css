@@ -65,18 +65,17 @@
   margin: 10px 0px 0px 0px;
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 12px;
 }
 .header-section-1-button2 h3 {
-  margin-left: 40px;
+  margin-right: 50px;
 }
 .header-section-1-button2-img {
-  width: 50px;
-  position: absolute;
-  left: 24px;
+  width: 48px;
   background-color: white;
-  padding: 15px;
+  padding: 11px;
+  margin-left: 2px;
   border-radius: 3px;
 }
 
