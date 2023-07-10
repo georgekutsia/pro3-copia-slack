@@ -37,3 +37,30 @@
     line-height: 22px;
   }
 }
+@media screen and (min-width: 765px) {
+.footer{
+  text-align: center;
+  div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    img{
+      height: 30px;
+      width: 30px;
+    }
+  }
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    img{
+      height: 50%;
+      width: auto;
+    }
+    li{
+      font-size: 10px;
+    }
+  }
+}
+}

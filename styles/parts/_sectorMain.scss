@@ -219,7 +219,7 @@
     padding: 150px 5% 50px 5%;
     background-color: white;
     text-align: left;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.269);
     img {
       width: 55px;
       height: auto;
@@ -360,5 +360,20 @@
 @media screen and (min-width: 765px) {
   .card-div-display{
     display: flex;
+  }
+  .main-section3{
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+      img{
+        display: none;
+      }
+      div{
+      display: inline;
+      align-items: center;
+      justify-content: space-around;
+      margin: 3%;
+    }
   }
 }
