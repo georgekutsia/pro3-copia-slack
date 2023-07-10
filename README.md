@@ -4,7 +4,4 @@ Los vídeos no se reproducen en el móvil por que hay limitaciones de este tipo 
 
 El código de scss (que estoy probando por primera vez) era hermoso hasta que intenté hacer la cabecera responsive y ampecé a liarla
 
-
-
-Aquí tengo la página ya colgada...
-https://main--slack-copy-with-extra.netlify.app/
+Aquí tengo la página ya colgada... https://main--slack-copy-with-extra.netlify.app/
