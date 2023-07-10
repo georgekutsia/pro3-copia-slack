@@ -1,0 +1,2 @@
+-mi código de scss (que estoy probando por primera vez) era hermoso hasta que intenté hacer la cabecera responsive y ampecé a liarla
+-

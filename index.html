@@ -18,8 +18,19 @@
   </script>
   <header class="header">
     <nav class="header-nav">
-      <a class="header-nav-a"  href="#"><img class="header-nav-a-img" src="./img/slack-logo.png" alt="logo slack"> slack</a>
-      <a class="header-nav-a"  href="#"><img class="header-nav-a-img" src="./img/burguer1.png" alt="burguer toggle"></a>
+      <ul class="header-nav-ul">
+          <li><a class="header-nav-a"href="#"><img class="header-nav-a-img" src="./img/slack-logo.png" alt="logo slack"> slack</a></li>
+          <li class="li-display"><a class="header-nav-a"href="#"></a>Producto</li>
+          <li class="li-display"><a class="header-nav-a"href="#"></a>Entrerprise</a></li>
+          <li class="li-display"><a class="header-nav-a"href="#"></a>Recursos</a></li>
+          <li class="li-display"><a class="header-nav-a"href="#"></a>Precios</a></li>
+        </ul>
+      <ul class="header-nav-div2-div">
+        <button class="li-display header-nav-div2-div-btn1">Conectarse</button>
+        <button class="li-display header-nav-div2-div-btn2">HABLA CON EL EQUIPO DE VENTAS</button>
+        <button class="li-display header-nav-div2-div-btn3">PROBARLO GRATIS</button>
+      </ul>
+        <a class="header-nav-a burger"  href="#"><img class="header-nav-a-img" src="./img/burguer1.png" alt="burguer toggle"></a>
     </nav>
     <div class="header-div">
       <section class="header-section-1">
@@ -48,22 +59,31 @@
         <img src="./img/logo-etsy.png" alt="Logo">
       </div>
       <div class="main-section1-div2">
-        <img class="main-section1-div2-img1" src="./img/connectedness-mobile.es-ES@2x.png" alt="Logo">
-        <div class="main-section1-div2-part1">
-          <h3>Reúne a tu equipo</h3>
-          <article>Los canales son el corazón de Slack. Son espacios organizados para todo el mundo que contienen 
-            todo lo necesario para trabajar. Los canales permiten conectarse entre departamentos, oficinas, zonas horarias 
-            e incluso con otras empresas.</article>
-            <a href="#">Obtener más información sobre los canales</a>
+        <div class="main-section1-div2-responsive">
+          <img class="main-section1-div2-img1" src="./img/connectedness-mobile.es-ES@2x.png" alt="Logo">
+          <video class="video-img-main" muted="" loop="" autoplay="" src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/mp4/connectedness.es-ES.mp4" type="video/mp"></video>
+          <div class="main-section1-div2-part1">
+            <h3>Reúne a tu equipo</h3>
+            <article>Los canales son el corazón de Slack. Son espacios organizados para todo el mundo que contienen 
+              todo lo necesario para trabajar. Los canales permiten conectarse entre departamentos, oficinas, zonas horarias 
+              e incluso con otras empresas.</article>
+              <a href="#">Obtener más información sobre los canales</a>
+            </div>
         </div>
-        <img class="main-section1-div2-img1" src="./img/flexibility-mobile.es-ES@2x.png" alt="Logo">
-                <div class="main-section1-div2-part1">
-          <h3>Selecciona cómo quieres trabajar</h3>
-          <article>Slack te otorga la flexibilidad para trabajar cuando, donde y como tú quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una junta para discutir asuntos en directo.</article>
+        <div class="main-section1-div2-responsive">
+          <img class="main-section1-div2-img2" src="./img/flexibility-mobile.es-ES@2x.png" alt="Logo">
+          <div class="main-section1-div2-part1 right-video">
+            <h3>Selecciona cómo quieres trabajar</h3>
+            <article>Slack te otorga la flexibilidad para trabajar cuando, donde y como tú quieras. Puedes chatear, enviar clips de audio y vídeo o unirte a una junta para discutir asuntos en directo.</article>
             <a href="#">Obtén más información acerca de la comunicación flexible</a>
+          </div>
+          <video class="video-img-main" muted="" loop="" autoplay="" src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/webm/flexibility.es-ES.webm" type="video/mp"></video>
         </div>
-        <img class="main-section1-div2-img1" src="./img/speed-mobile.es-ES@2x.png" alt="Logo">
-                <div class="main-section1-div2-part1">
+        <div class="main-section1-div2-responsive">
+
+          <img class="main-section1-div2-img3" src="./img/speed-mobile.es-ES@2x.png" alt="Logo">
+          <video class="video-img-main" muted="" loop="" autoplay="" src="https://a.slack-edge.com/445abcc/marketing/img/homepage/e2e-prospects/animations/mp4/speed.es-ES.mp4" type="video/mp"></video>
+          <div class="main-section1-div2-part1">
           <h3>Agiliza el trabajo con todas tus herramientas en un mismo lugar</h3>
           <article>Conectar tus otras aplicaciones de trabajo con Slack te permite ahorrar tiempo al no tener que cambiar entre pestañas. Además, con herramientas eficaces como el Creador de flujos de trabajo, puedes automatizar tareas rutinarias.</article>
             <a href="#">Más información sobre la plataforma de Slack</a>
@@ -74,8 +94,10 @@
       <div class="main-section2-div1">
         <h3>Equipos grandes y pequeños confían en Slack</h3>
         <article>Slack se adapta de forma segura para garantizar la colaboración en las empresas más importantes del mundo.</article>
-        <button class="main-section2-div1-button1">CONOCE SLACK PARA EMPRESAS</button>
-        <button class="main-section2-div1-button2">HABLA CON EL EQUIPO DE VENTAS</button>
+        <div class="button-teams">
+          <button class="main-section2-div1-button1">CONOCE SLACK PARA EMPRESAS</button>
+          <button class="main-section2-div1-button2">HABLA CON EL EQUIPO DE VENTAS</button>
+        </div>
       </div>
       <div class="main-section2-div2">
         <div>
@@ -92,35 +114,71 @@
         </div>
       </div>
       <div class="main-section2-div3">
-        <a href="https://www.youtube.com/embed/vG6joGGC4Os">
-          <video class="main-section2-div3-video" autoplay="" loop=""  muted="" ><source src="https://a.slack-edge.com/1b4e2a3/marketing/img/homepage/true-prospects/customer-showcase/Vodafone_08.mp4" type="video/mp4"></video>
-        </a>
-        <div class="main-section2-div3-div1">
-          <article>“Muchos empleados del sector tecnológico estaban realizando una transición natural hacia Slack. Por lo tanto, seguimos los pasos de nuestros usuarios hacia lo que a día de hoy es una de nuestras herramientas más importantes”.</article>
-            <div class="main-section2-div3-div1-div1">
-              <h5>Matt Beal</h5>
-              <p>Director de Estrategia y Arquitectura Tecnológica, Vodafone</p>
-              <a  href="#">Ver más casos de clientes -></a>
-            </div>
-            <!-- me di cuenta tarde de que la P de abajo es mas ancho que la parte de arriba, así que hice un apaño feo de para reajustarlo -->
-          <p class="main-section2-div3-div1-p">* Promedio ponderado. Basado en una encuesta de 2707 respuestas de usuarios semanales de Slack en Estados Unidos, Reino Unido, Australia y Canadá, con un margen de error de ± 2 % al 95 % CI (diciembre de 2021).</p>
+        <div class="box-video-2">
+          <a href="https://www.youtube.com/embed/vG6joGGC4Os">
+            <video class="main-section2-div3-video" autoplay="" loop=""  muted="" ><source src="https://a.slack-edge.com/1b4e2a3/marketing/img/homepage/true-prospects/customer-showcase/Vodafone_08.mp4" type="video/mp4"></video>
+          </a>
+          <div class="main-section2-div3-div1">
+            <article>“Muchos empleados del sector tecnológico estaban realizando una transición natural hacia Slack. Por lo tanto, seguimos los pasos de nuestros usuarios hacia lo que a día de hoy es una de nuestras herramientas más importantes”.</article>
+              <div class="main-section2-div3-div1-div1">
+                <h5>Matt Beal</h5>
+                <p>Director de Estrategia y Arquitectura Tecnológica, Vodafone</p>
+                <a  href="#">Ver más casos de clientes -></a>
+              </div>
+              <!-- me di cuenta tarde de que la P de abajo es mas ancho que la parte de arriba, así que hice un apaño feo de para reajustarlo -->
+          </div>
+          
         </div>
+            <p class="main-section2-div3-div1-p">* Promedio ponderado. Basado en una encuesta de 2707 respuestas de usuarios semanales de Slack en Estados Unidos, Reino Unido, Australia y Canadá, con un margen de error de ± 2 % al 95 % CI (diciembre de 2021).</p>
       </div>
       <div class="main-section2-div4">
+        <h3>Explora con más profundidad una nueva forma de trabajar</h3>
         <div class="main-section2-div4-div1">
-          <h3>Explora con más profundidad una nueva forma de trabajar</h3>
-          <div class="main-section2-div4-div1-card">
-            <img src="./img/img-promo-01.jpeg" alt="">
-            <h6>Funciones</h6>
-            <p>Echa un vistazo a todo lo que puede hacer la plataforma</p>
-            <a href="#">EXAMINA LAS FUNCIONES</a>
+          <div class="card-div">
+            <div class="main-section2-div4-div1-card">
+              <img src="./img/img-promo-01.jpeg" alt="">
+              <h6>Funciones</h6>
+              <p>Echa un vistazo a todo lo que puede hacer la plataforma</p>
+              <a href="#">EXAMINA LAS FUNCIONES</a>
+            </div>
+          </div>
+          <div class="card-div card-div-display">
+            <div class="main-section2-div4-div1-card">
+              <img src="./img/img-promo-02.jpeg" alt="">
+              <h6>Casos de clientes</h6>
+              <p>Busca la inspiración en los clientes reales de Slack</p>
+              <a href="#">LEER LAS HISTORIAS</a>
+            </div>
+          </div>
+          <div class="card-div card-div-display">
+            <div class="main-section2-div4-div1-card">
+              <img src="./img/img-promo-03.jpeg" alt="">
+              <h6>Soluciones</h6>
+              <p>Descubre todo lo que puede hacer Slack por tu equipo</p>
+              <a href="#">EXAMINA LAS FUNCIONES</a>
+            </div>
+          </div>
+          <div class="card-div card-div-display">
+            <div class="main-section2-div4-div1-card">
+              <img src="./img/img-promo-04.jpeg" alt="">
+              <h6>Cómo</h6>
+              <p>Empieza con buen pie con la introducción a Slack</p>
+              <a href="#">DESCUBRE CÓMO HACERLO</a>
+            </div>
           </div>
         </div>
-        <button>Aquí botones pa cambiar de página </button>
+        <div class="btn-purple-box">
+          <button ><img class="btn-purple purple1" src="./img/purple circle.png" alt=""> </button>
+          <button ><img class="btn-purple purple2" src="./img/purple circle.png" alt=""> </button>
+          <button ><img class="btn-purple purple3" src="./img/purple circle.png" alt=""> </button>
+          <button ><img class="btn-purple purple4" src="./img/purple circle.png" alt=""> </button>
+        </div>
         <div class="main-section2-div4-div2">
           <h3>Descubre todo lo que puedes conseguir con Slack</h3>
-          <button class="main-section2-div4-div2-button1">PROBARLO GRATIS</button>
-          <button class="main-section2-div4-div2-button2">HABLAR CON EL EQUIPO DE VENTAS</button>
+          <div class="buttons-footer">
+            <button class="main-section2-div4-div2-button1">PROBARLO GRATIS</button>
+            <button class="main-section2-div4-div2-button2">HABLAR CON EL EQUIPO DE VENTAS</button>
+          </div>
         </div>
       </div>
     </section>
