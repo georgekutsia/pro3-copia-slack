@@ -227,6 +227,7 @@
   background-color: #f4ede4;
   padding-top: 90px;
   margin-top: 50px;
+  overflow: hidden;
 }
 .main-section1 {
   padding: 0px 10%;
