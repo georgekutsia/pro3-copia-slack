@@ -1,5 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+button {
+cursor: url("../img/cursor.cur"), pointer;
+transition: 0.5s all ease-in-out;
+}
+button:hover {
+scale: 1.05;
+border-radius: 40px;
+}
+
+
+
+a {
+cursor: url("../img/cursor-purple.cur"), pointer;
+transition: 0.5s all ease-in-out;
+}
+
+
+
+h1,h2,h3,h4 {
+transition: 1s all ease-in-out;
+}
+
+h1:hover, h2:hover, h3:hover,h4:hover 
+{
+transform: translate(-5px, -5px);
+}
+
+
+
+li {
+transition: 0.5s all ease-in-out;
+}
+
+li:hover {
+border: 2px dashed rgb(7, 255, 160);
+padding: 5px 10px;
 }

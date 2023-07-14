@@ -8,9 +8,11 @@
     padding: 0px 10%;
     overflow: hidden;
     &-h3 {
+      margin: 30px 0px;
       font-size: 15px;
       &:hover {
-        color: blue;
+        letter-spacing: -22px;
+        margin-left: 430px;
       }
     }
     &-div1 {
@@ -86,14 +88,14 @@
       &-button1 {
         @include button(white, $background-slack, 10px 0px 0px 0px);
         font-weight: 100;
-        width: 90%
+        width: 90%;
         //hay muchos detalles tipo esto del font-weight que no logro ajustar a ojo ya que no tengo el font-family original
       }
       &-button2 {
         @include button($background-slack, white, 10px 0px 0px 0px);
         border: 1px solid $background-slack;
         width: 90%
-
+        
       }
     }
     &-div2 {
